@@ -14,7 +14,7 @@
       }
     ],
     "unlock": "The Long Road",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e5/57_Leaf_Clover.png/revision/latest/scale-to-width-down/64?cb=20190411034200"
+    "url": "57 Leaf Clover.png"
   },
   "Aegis": {
     "category": "Utility,Healing",
@@ -30,7 +30,7 @@
         "value": "50%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e5/Aegis.png/revision/latest/scale-to-width-down/64?cb=20190625193715"
+    "url": "Aegis.png"
   },
   "Alien Head": {
     "category": "Utility",
@@ -46,7 +46,7 @@
         "value": "25%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/25/Alien_Head.png/revision/latest/scale-to-width-down/64?cb=20190411034301"
+    "url": "Alien Head.png"
   },
   "Armor-Piercing Rounds": {
     "category": "Damage,AIBlacklist",
@@ -63,7 +63,7 @@
       }
     ],
     "unlock": "Advancement",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/f0/Armor-Piercing_Rounds.png/revision/latest/scale-to-width-down/64?cb=20190411034306"
+    "url": "Armor-Piercing Rounds.png"
   },
   "AtG Missile Mk. 1": {
     "category": "Damage",
@@ -79,7 +79,7 @@
         "value": "300%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/6/6a/AtG_Missile_Mk._1.png/revision/latest/scale-to-width-down/64?cb=20190411034310"
+    "url": "AtG Missile Mk. 1.png"
   },
   "Backup Magazine": {
     "category": "Utility",
@@ -96,7 +96,7 @@
       }
     ],
     "unlock": "Flawless",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/f3/Backup_Magazine.png/revision/latest/scale-to-width-down/64?cb=20190411034315"
+    "url": "Backup Magazine.png"
   },
   "Bandolier": {
     "category": "Utility,OnKillEffect",
@@ -112,7 +112,7 @@
         "value": "18%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/6/62/Bandolier.png/revision/latest/scale-to-width-down/64?cb=20190411034319"
+    "url": "Bandolier.png"
   },
   "Beads of Fealty": {
     "category": "",
@@ -129,7 +129,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/0/07/Beads_of_Fealty.png/revision/latest/scale-to-width-down/64?cb=20191217214156"
+    "url": "Beads of Fealty.png"
   },
   "Berzerker's Pauldron": {
     "category": "Damage,OnKillEffect",
@@ -146,7 +146,7 @@
       }
     ],
     "unlock": "Glorious Battle",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/a/a6/Berzerker%27s_Pauldron.png/revision/latest/scale-to-width-down/64?cb=20190411034324"
+    "url": "Berzerker's Pauldron.png"
   },
   "BoostDamage": {
     "category": "Hidden,Damage",
@@ -188,7 +188,7 @@
       }
     ],
     "unlock": "Deicide",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c0/Brainstalks.png/revision/latest/scale-to-width-down/64?cb=20190411034328"
+    "url": "Brainstalks.png"
   },
   "Brilliant Behemoth": {
     "category": "Damage",
@@ -204,7 +204,7 @@
         "value": "4m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/fa/Brilliant_Behemoth.png/revision/latest/scale-to-width-down/64?cb=20190411034332"
+    "url": "Brilliant Behemoth.png"
   },
   "Brittle Crown": {
     "category": "Utility",
@@ -220,7 +220,7 @@
         "value": "3"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/a/ae/Brittle_Crown.png/revision/latest/scale-to-width-down/64?cb=20190411034336"
+    "url": "Brittle Crown.png"
   },
   "Bundle of Fireworks": {
     "category": "Damage,AIBlacklist",
@@ -237,7 +237,7 @@
       }
     ],
     "unlock": "...Maybe One More",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/3d/Bundle_of_Fireworks.png/revision/latest/scale-to-width-down/64?cb=20190411034341"
+    "url": "Bundle of Fireworks.png"
   },
   "BurnNearby": {
     "category": "Abandoned",
@@ -272,7 +272,7 @@
         "value": "3m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/33/Bustling_Fungus.png/revision/latest/scale-to-width-down/64?cb=20190411034345"
+    "url": "Bustling Fungus.png"
   },
   "Cautious Slug": {
     "category": "Healing",
@@ -288,7 +288,7 @@
         "value": "3 hp/s"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c6/Cautious_Slug.png/revision/latest/scale-to-width-down/64?cb=20190411034350"
+    "url": "Cautious Slug.png"
   },
   "Ceremonial Dagger": {
     "category": "Damage,OnKillEffect",
@@ -304,7 +304,7 @@
         "value": "150%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/7/76/Ceremonial_Dagger.png/revision/latest/scale-to-width-down/64?cb=20190411034354"
+    "url": "Ceremonial Dagger.png"
   },
   "Chronobauble": {
     "category": "Utility",
@@ -320,7 +320,7 @@
         "value": "2s"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/38/Chronobauble.png/revision/latest/scale-to-width-down/64?cb=20190411034359"
+    "url": "Chronobauble.png"
   },
   "Corpsebloom": {
     "category": "Healing",
@@ -342,7 +342,7 @@
         "value": "10%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/31/Corpsebloom.png/revision/latest/scale-to-width-down/64?cb=20190411034403"
+    "url": "Corpsebloom.png"
   },
   "CrippleWardOnLevel": {
     "category": "Abandoned,Utility",
@@ -385,7 +385,7 @@
       }
     ],
     "unlock": "The Basics",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c0/Crowbar.png/revision/latest/scale-to-width-down/64?cb=20190411034408"
+    "url": "Crowbar.png"
   },
   "Dio's Best Friend": {
     "category": "Utility",
@@ -402,7 +402,7 @@
       }
     ],
     "unlock": "The Lone Survivor",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/d/dc/Dio%27s_Best_Friend.png/revision/latest/scale-to-width-down/64?cb=20190411034412"
+    "url": "Dio's Best Friend.png"
   },
   "DrizzlePlayerHelper": {
     "category": "Hidden",
@@ -437,7 +437,7 @@
         "value": "30%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/7/7e/Energy_Drink.png/revision/latest/scale-to-width-down/64?cb=20190411034729"
+    "url": "Energy Drink.png"
   },
   "Focus Crystal": {
     "category": "Damage",
@@ -454,7 +454,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/5/59/Focus_Crystal.png/revision/latest/scale-to-width-down/64?cb=20190917165638"
+    "url": "Focus Crystal.png"
   },
   "Fresh Meat": {
     "category": "Healing,OnKillEffect",
@@ -471,7 +471,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/ec/Fresh_Meat.png/revision/latest/scale-to-width-down/64?cb=20191217215200"
+    "url": "Fresh Meat.png"
   },
   "Frost Relic": {
     "category": "Damage,OnKillEffect",
@@ -487,7 +487,7 @@
         "value": "6m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/5/58/Frost_Relic.png/revision/latest/scale-to-width-down/64?cb=20190411034739"
+    "url": "Frost Relic.png"
   },
   "Fuel Cell": {
     "category": "Utility,OnKillEffect,EquipmentRelated",
@@ -510,7 +510,7 @@
       }
     ],
     "unlock": "Experimenting",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/4/4d/Fuel_Cell.png/revision/latest/scale-to-width-down/64?cb=20190411034744"
+    "url": "Fuel Cell.png"
   },
   "Gasoline": {
     "category": "Damage,OnKillEffect",
@@ -532,7 +532,7 @@
         "value": "12m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/6/6e/Gasoline.png/revision/latest/scale-to-width-down/64?cb=20190411034748"
+    "url": "Gasoline.png"
   },
   "Genesis Loop": {
     "Boss": "Wandering Vagrant",
@@ -550,7 +550,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c8/Genesis_Loop.png/revision/latest/scale-to-width-down/64?cb=20191217215521"
+    "url": "Genesis Loop.png"
   },
   "Gesture of the Drowned": {
     "category": "Utility,EquipmentRelated",
@@ -567,7 +567,7 @@
       }
     ],
     "unlock": "The Demons And The Crabs",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c9/Gesture_of_the_Drowned.png/revision/latest/scale-to-width-down/64?cb=20190411034753"
+    "url": "Gesture of the Drowned.png"
   },
   "Ghor's Tome": {
     "category": "Utility,OnKillEffect",
@@ -584,7 +584,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/9/9a/Ghor%27s_Tome.png/revision/latest/scale-to-width-down/64?cb=20191217214156"
+    "url": "Ghor's Tome.png"
   },
   "Ghost": {
     "category": "Hidden",
@@ -613,7 +613,7 @@
         "value": "10s"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/36/H3AD-5T_v2.png/revision/latest/scale-to-width-down/64?cb=20190411034803"
+    "url": "H3AD-5T v2.png"
   },
   "Halcyon Seed": {
     "Boss": "Aurelionite",
@@ -636,7 +636,7 @@
         "value": "100%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e6/Halcyon_Seed.png/revision/latest/scale-to-width-down/64?cb=20190625193715"
+    "url": "Halcyon Seed.png"
   },
   "Happiest Mask": {
     "category": "Damage,Utility,OnKillEffect",
@@ -652,7 +652,7 @@
         "value": "30s"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/d/d4/Happiest_Mask.png/revision/latest/scale-to-width-down/64?cb=20190411034807"
+    "url": "Happiest Mask.png"
   },
   "Hardlight Afterburner": {
     "category": "Utility",
@@ -668,7 +668,7 @@
         "value": "2"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/20/Hardlight_Afterburner.png/revision/latest/scale-to-width-down/64?cb=20190411034812"
+    "url": "Hardlight Afterburner.png"
   },
   "Harvester's Scythe": {
     "category": "Healing",
@@ -691,7 +691,7 @@
       }
     ],
     "unlock": "Prismatically Aligned",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e1/Harvester%27s_Scythe.png/revision/latest/scale-to-width-down/64?cb=20190411034817"
+    "url": "Harvester's Scythe.png"
   },
   "HealthDecay": {
     "category": "Hidden",
@@ -720,7 +720,7 @@
         "value": "1"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/3a/Hopoo_Feather.png/revision/latest/scale-to-width-down/64?cb=20190411034827"
+    "url": "Hopoo Feather.png"
   },
   "Infusion": {
     "category": "Utility,Healing,OnKillEffect",
@@ -737,7 +737,7 @@
       }
     ],
     "unlock": "Slaughter",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/7/7d/Infusion.png/revision/latest/scale-to-width-down/64?cb=20190411034834"
+    "url": "Infusion.png"
   },
   "Irradiant Pearl": {
     "Boss": "Cleansing Pool",
@@ -791,7 +791,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/ef/Irradiant_Pearl.png/revision/latest/scale-to-width-down/64?cb=20191217214156"
+    "url": "Irradiant Pearl.png"
   },
   "Kjaro's Band": {
     "category": "Damage",
@@ -808,7 +808,7 @@
       }
     ],
     "unlock": "Death Do Us Part",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/eb/Kjaro%27s_Band.png/revision/latest/scale-to-width-down/64?cb=20190411034838"
+    "url": "Kjaro's Band.png"
   },
   "Leeching Seed": {
     "category": "Healing",
@@ -824,7 +824,7 @@
         "value": "1"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/a/a0/Leeching_Seed.png/revision/latest/scale-to-width-down/64?cb=20190411034843"
+    "url": "Leeching Seed.png"
   },
   "Lens-Maker's Glasses": {
     "category": "Damage",
@@ -840,7 +840,7 @@
         "value": "10%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/23/Lens-Maker%27s_Glasses.png/revision/latest/scale-to-width-down/64?cb=20190411034902"
+    "url": "Lens-Maker's Glasses.png"
   },
   "Lepton Daisy": {
     "category": "Healing,AIBlacklist",
@@ -857,7 +857,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/7/73/Lepton_Daisy.png/revision/latest/scale-to-width-down/64?cb=20190917165638"
+    "url": "Lepton Daisy.png"
   },
   "Little Disciple": {
     "Boss": "Grovetender",
@@ -874,7 +874,7 @@
         "value": "100%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/0/08/Little_Disciple.png/revision/latest/scale-to-width-down/64?cb=20190625193715"
+    "url": "Little Disciple.png"
   },
   "MageAttunement": {
     "category": "Abandoned",
@@ -904,7 +904,7 @@
       }
     ],
     "unlock": "Elite Slayer",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/0/0f/Medkit.png/revision/latest/scale-to-width-down/64?cb=20190411034907"
+    "url": "Medkit.png"
   },
   "MonsoonPlayerHelper": {
     "category": "Hidden",
@@ -935,7 +935,7 @@
         "value": "6"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/3b/Monster_Tooth.png/revision/latest/scale-to-width-down/64?cb=20190411034916"
+    "url": "Monster Tooth.png"
   },
   "N'kuhana's Opinion": {
     "category": "Damage",
@@ -952,7 +952,7 @@
       }
     ],
     "unlock": "Her Concepts",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c9/N%27kuhana%27s_Opinion.png/revision/latest/scale-to-width-down/64?cb=20190411034921"
+    "url": "N'kuhana's Opinion.png"
   },
   "Old Guillotine": {
     "category": "Damage,AIBlacklist",
@@ -968,7 +968,7 @@
         "value": "20%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/8/8d/Old_Guillotine.png/revision/latest/scale-to-width-down/64?cb=20190918043207"
+    "url": "Old Guillotine.png"
   },
   "Old War Stealthkit": {
     "category": "Utility",
@@ -984,7 +984,7 @@
         "value": "3s"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/2c/Old_War_Stealthkit.png/revision/latest/scale-to-width-down/64?cb=20190411034930"
+    "url": "Old War Stealthkit.png"
   },
   "Paul's Goat Hoof": {
     "category": "Utility",
@@ -1001,7 +1001,7 @@
       }
     ],
     "unlock": "\"Is This Bugged?\"",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/4/4a/Paul%27s_Goat_Hoof.png/revision/latest/scale-to-width-down/64?cb=20190411034934"
+    "url": "Paul's Goat Hoof.png"
   },
   "Pearl": {
     "Boss": "Cleansing Pool",
@@ -1019,7 +1019,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/7/73/Pearl.png/revision/latest/scale-to-width-down/64?cb=20191217214156"
+    "url": "Pearl.png"
   },
   "Personal Shield Generator": {
     "category": "Utility",
@@ -1035,7 +1035,7 @@
         "value": "8%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e0/Personal_Shield_Generator.png/revision/latest/scale-to-width-down/64?cb=20190411034939"
+    "url": "Personal Shield Generator.png"
   },
   "Predatory Instincts": {
     "category": "Damage",
@@ -1058,7 +1058,7 @@
       }
     ],
     "unlock": "Rapidfire",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/39/Predatory_Instincts.png/revision/latest/scale-to-width-down/64?cb=20190411034944"
+    "url": "Predatory Instincts.png"
   },
   "Queen's Gland": {
     "Boss": "Beetle Queen",
@@ -1075,7 +1075,7 @@
         "value": "1"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/0/0b/Queen%27s_Gland.png/revision/latest/scale-to-width-down/64?cb=20190411034958"
+    "url": "Queen's Gland.png"
   },
   "Razorwire": {
     "category": "Damage,AIBlacklist",
@@ -1098,7 +1098,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/a/ac/Razorwire.png/revision/latest/scale-to-width-down/64?cb=20191217214157"
+    "url": "Razorwire.png"
   },
   "Red Whip": {
     "category": "Utility",
@@ -1114,7 +1114,7 @@
         "value": "30%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/2a/Red_Whip.png/revision/latest/scale-to-width-down/64?cb=20191217215522"
+    "url": "Red Whip.png"
   },
   "Rejuvenation Rack": {
     "category": "Healing",
@@ -1131,7 +1131,7 @@
       }
     ],
     "unlock": "Naturopath",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/0/0a/Rejuvenation_Rack.png/revision/latest/scale-to-width-down/64?cb=20190411035011"
+    "url": "Rejuvenation Rack.png"
   },
   "Resonance Disc": {
     "category": "Damage,OnKillEffect",
@@ -1154,7 +1154,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/8/8d/Resonance_Disc.png/revision/latest/scale-to-width-down/64?cb=20191217215521"
+    "url": "Resonance Disc.png"
   },
   "Rose Buckler": {
     "category": "Utility,SprintRelated",
@@ -1170,7 +1170,7 @@
         "value": "30"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/2f/Rose_Buckler.png/revision/latest/scale-to-width-down/64?cb=20190411035015"
+    "url": "Rose Buckler.png"
   },
   "Runald's Band": {
     "category": "Damage",
@@ -1187,7 +1187,7 @@
       }
     ],
     "unlock": "Death Do Us Part",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/0/05/Runald%27s_Band.png/revision/latest/scale-to-width-down/64?cb=20190411035023"
+    "url": "Runald's Band.png"
   },
   "Rusted Key": {
     "category": "Utility,AIBlacklist",
@@ -1204,7 +1204,7 @@
       }
     ],
     "unlock": "Keyed Up",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/9/9b/Rusted_Key.png/revision/latest/scale-to-width-down/64?cb=20190411035027"
+    "url": "Rusted Key.png"
   },
   "Sentient Meat Hook": {
     "category": "Damage",
@@ -1221,7 +1221,7 @@
       }
     ],
     "unlock": "Deja Vu?",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e7/Sentient_Meat_Hook.png/revision/latest/scale-to-width-down/64?cb=20190411035050"
+    "url": "Sentient Meat Hook.png"
   },
   "Shaped Glass": {
     "category": "Damage",
@@ -1243,7 +1243,7 @@
         "value": "50%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/ff/Shaped_Glass.png/revision/latest/scale-to-width-down/64?cb=20190411035054"
+    "url": "Shaped Glass.png"
   },
   "Shattering Justice": {
     "category": "Damage",
@@ -1260,7 +1260,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/2d/Shattering_Justice.png/revision/latest/scale-to-width-down/64?cb=20190917165638"
+    "url": "Shattering Justice.png"
   },
   "Soldier's Syringe": {
     "category": "Damage",
@@ -1276,7 +1276,7 @@
         "value": "15%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/f2/Soldier%27s_Syringe.png/revision/latest/scale-to-width-down/64?cb=20190411035100"
+    "url": "Soldier's Syringe.png"
   },
   "Soulbound Catalyst": {
     "category": "Utility,OnKillEffect,EquipmentRelated",
@@ -1293,7 +1293,7 @@
       }
     ],
     "unlock": "Newtist",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/f1/Soulbound_Catalyst.png/revision/latest/scale-to-width-down/64?cb=20190411035105"
+    "url": "Soulbound Catalyst.png"
   },
   "Sticky Bomb": {
     "category": "Damage",
@@ -1309,7 +1309,7 @@
         "value": "5%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/7/74/Sticky_Bomb.png/revision/latest/scale-to-width-down/64?cb=20190411035109"
+    "url": "Sticky Bomb.png"
   },
   "Strides of Heresy": {
     "category": "Utility,Healing",
@@ -1332,7 +1332,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/1/1a/Strides_of_Heresy.png/revision/latest/scale-to-width-down/64?cb=20190917165638"
+    "url": "Strides of Heresy.png"
   },
   "Stun Grenade": {
     "category": "Utility,AIBlacklist",
@@ -1348,7 +1348,7 @@
         "value": "5%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/2/27/Stun_Grenade.png/revision/latest/scale-to-width-down/64?cb=20190411035113"
+    "url": "Stun Grenade.png"
   },
   "Titanic Knurl": {
     "Boss": "Stone Titan",
@@ -1371,7 +1371,7 @@
         "value": "1.6"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/9/9f/Titanic_Knurl.png/revision/latest/scale-to-width-down/64?cb=20190411035129"
+    "url": "Titanic Knurl.png"
   },
   "Tonic Affliction": {
     "category": "Cleansable",
@@ -1401,7 +1401,7 @@
         "value": "15"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c5/Topaz_Brooch.png/revision/latest/scale-to-width-down/64?cb=20190625193715"
+    "url": "Topaz Brooch.png"
   },
   "Tougher Times": {
     "category": "Utility",
@@ -1418,7 +1418,7 @@
       }
     ],
     "unlock": "Learning Process",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/39/Tougher_Times.png/revision/latest/scale-to-width-down/64?cb=20190411035134"
+    "url": "Tougher Times.png"
   },
   "Transcendence": {
     "category": "Utility",
@@ -1434,7 +1434,7 @@
         "value": "50%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/8/85/Transcendence.png/revision/latest/scale-to-width-down/64?cb=20190411035139"
+    "url": "Transcendence.png"
   },
   "Tri-Tip Dagger": {
     "category": "Damage",
@@ -1450,7 +1450,7 @@
         "value": "15%"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/1/17/Tri-Tip_Dagger.png/revision/latest/scale-to-width-down/64?cb=20190411035144"
+    "url": "Tri-Tip Dagger.png"
   },
   "Ukulele": {
     "category": "Damage",
@@ -1472,7 +1472,7 @@
         "value": "20m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/9/98/Ukulele.png/revision/latest/scale-to-width-down/64?cb=20190411035149"
+    "url": "Ukulele.png"
   },
   "Unstable Tesla Coil": {
     "category": "Damage",
@@ -1489,7 +1489,7 @@
       }
     ],
     "unlock": "Macho",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/e/e4/Unstable_Tesla_Coil.png/revision/latest/scale-to-width-down/64?cb=20190411035154"
+    "url": "Unstable Tesla Coil.png"
   },
   "Visions of Heresy": {
     "category": "Damage",
@@ -1512,7 +1512,7 @@
       }
     ],
     "unlock": "",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/3/31/Visions_of_Heresy.png/revision/latest/scale-to-width-down/64?cb=20191217215521"
+    "url": "Visions of Heresy.png"
   },
   "Wake of Vultures": {
     "category": "Damage,Utility,AIBlacklist,OnKillEffect",
@@ -1528,7 +1528,7 @@
         "value": "8s"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/f8/Wake_of_Vultures.png/revision/latest/scale-to-width-down/64?cb=20190411035159"
+    "url": "Wake of Vultures.png"
   },
   "War Horn": {
     "category": "Damage,EquipmentRelated",
@@ -1545,7 +1545,7 @@
       }
     ],
     "unlock": "Warmonger",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/9/9c/War_Horn.png/revision/latest/scale-to-width-down/64?cb=20190625193716"
+    "url": "War Horn.png"
   },
   "Warbanner": {
     "category": "Utility,AIBlacklist",
@@ -1561,7 +1561,7 @@
         "value": "16m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/f/f0/Warbanner.png/revision/latest/scale-to-width-down/64?cb=20190411035204"
+    "url": "Warbanner.png"
   },
   "Wax Quail": {
     "category": "Utility,SprintRelated",
@@ -1578,7 +1578,7 @@
       }
     ],
     "unlock": "Going Fast Recommended",
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/6/6c/Wax_Quail.png/revision/latest/scale-to-width-down/64?cb=20190411035209"
+    "url": "Wax Quail.png"
   },
   "Will-o'-the-wisp": {
     "category": "Damage,OnKillEffect",
@@ -1600,6 +1600,6 @@
         "value": "12m"
       }
     ],
-    "url": "https://vignette.wikia.nocookie.net/riskofrain2/images/c/c4/Will-o%27-the-wisp.png/revision/latest/scale-to-width-down/64?cb=20190411035214"
+    "url": "Will-o'-the-wisp.png"
   }
 }
