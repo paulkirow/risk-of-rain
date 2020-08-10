@@ -1,0 +1,147 @@
+// custom.scss
+
+// All of your custom SCSS variables go first
+$common:      #FFFFFF;
+$uncommon:    #67A646;
+$rare:        #E75436;
+$boss:        Yellow;
+$lunar:       #00BFFF;
+$equipment:   #C38840;
+$bg-log:      #252f38;
+
+// This table defines the theme colors (variant names)
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+      'common': $common,
+      'uncommon': $uncommon,
+      'rare': $rare,
+      'legendary': $rare,
+      'boss': $boss,
+      'lunar': $lunar,
+      'equipment': $equipment,
+      'damage': #cdbf83,
+      'utility': #9ec3d6,
+      'stack': #8490a0,
+      'heal': #a0cf87,
+      'hit-points': #c58d8c,
+    ),
+    $theme-colors
+);
+
+$body-bg:                   #191b1d;
+$body-color:                #fff;
+
+$mark-padding:                0em;
+
+
+//then bootstrap & bootstrap-vue should be added after
+//so that they inherit the custom SCSS variables
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+//all other custom scss files or css should be added here
+
+.ror-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-right: 0;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.height-35 {
+  height: 35%;
+}
+
+.opacity-50 {
+  opacity: 0.25;
+}
+
+.border-corner  {
+  position: relative;
+  margin: 20px;
+  background: none;
+  cursor: pointer;
+  color: white;
+  padding: 2px;
+  box-sizing: content-box;
+  border: 2px solid #777786;
+
+  &::before, &::after, span::before, span::after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 2px;
+  }
+  &::before {
+    top: -2px;
+    left: -2px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+  }
+  &::after {
+    top: -2px;
+    right: -2px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+  }
+  span::before {
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+  }
+  span::after {
+    bottom: -2px;
+    right: -2px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+}
+
+.border-corner-lite  {
+  position: relative;
+  background: none;
+  cursor: pointer;
+  color: white;
+  box-sizing: content-box;
+
+  &::before, &::after, span::before, span::after {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 2px;
+  }
+  &::before {
+    top: 0;
+    left: 0;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+  }
+  &::after {
+    top: 0;
+    right: 0;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+  }
+  span::before {
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+  }
+  span::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+}
