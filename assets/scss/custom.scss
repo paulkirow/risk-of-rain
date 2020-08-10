@@ -34,6 +34,9 @@ $body-color:                #fff;
 
 $mark-padding:                0em;
 
+// Overrides for font-family
+$font-family-sans-serif: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family-base:       $font-family-sans-serif !default;
 
 //then bootstrap & bootstrap-vue should be added after
 //so that they inherit the custom SCSS variables
@@ -59,6 +62,14 @@ $mark-padding:                0em;
 
 .opacity-50 {
   opacity: 0.25;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+:focus {
+  outline: #777786 inset 1px;
 }
 
 .border-corner  {
@@ -125,23 +136,27 @@ $mark-padding:                0em;
     left: 0;
     border-top: 2px solid white;
     border-left: 2px solid white;
+    transition: 0.5s all;
   }
   &::after {
     top: 0;
     right: 0;
     border-top: 2px solid white;
     border-right: 2px solid white;
+    transition: 0.5s all;
   }
   span::before {
     bottom: 0;
     left: 0;
     border-bottom: 2px solid white;
     border-left: 2px solid white;
+    transition: 0.5s all;
   }
   span::after {
     bottom: 0;
     right: 0;
     border-bottom: 2px solid white;
     border-right: 2px solid white;
+    transition: 0.5s all;
   }
 }

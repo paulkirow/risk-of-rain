@@ -79,7 +79,7 @@
         <div class="nav ror-sidebar col-3 bg-dark">
           <item-left v-bind="selectedItem" :name="selectedName" />
         </div>
-        <b-col cols="9" offset="3" class="mt-3">
+        <b-col cols="9" offset="3" class="mt-3" @click="isItemClicked = false">
           <template
             v-for="[rarity, rarity_visible] in Object.entries(rarity_group_order)"
             class="border-bottom border-secondary my-2"
@@ -87,13 +87,16 @@
             <div v-if="rarity_visible && rarity !== 'NoTier' && rarity in items_by_rarity" :key="rarity" class="border-bottom border-secondary py-4">
               <Item
                 v-for="[name, data] in Object.entries(items_by_rarity[rarity])"
-                :key="data.id"
+                :key="data.name"
                 v-bind="data"
                 :visible="name in filtered_items || name in filtered_equipment"
                 :selected="isItemClicked && selectedName === name"
-                class="d-inline-block"
-                @click.native="selectedItemClick(name, data)"
+                class="d-inline-block cursor-pointer"
+                tabindex="0"
+                @click.native.stop="selectedItemClick(name, data)"
+                @keyup.enter.native="selectedItemClick(name, data)"
                 @mouseover.native="selectedItemMouseOver(name, data)"
+                @focusin.native="selectedItemMouseOver(name, data)"
               />
             </div>
           </template>
@@ -188,12 +191,11 @@ export default {
       }
     },
     selectedItemClick (name, data) {
-      this.selectedName = name
-      if (this.selectedName === name) {
-        // If this item is already clicked reset the variable
+      if (this.isItemClicked === true && this.selectedName === name) {
         this.isItemClicked = false
+      } else {
+        this.isItemClicked = true
       }
-      this.isItemClicked = !this.isItemClicked
       this.selectedItem = data
       this.selectedName = name
     },

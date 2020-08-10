@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex flex-column h-100 w-100 px-3 pb-3">
-    <div class="px-auto my-2 pt-1 ml-3">
-      Shrine of Order
+    <div class="px-auto my-2 ml-3 ror-title-text">
+      <logo /> Shrine of Order
     </div>
     <template v-if="id !== -1">
       <div class="mx-auto mt-5 mb-1 border-corner p-1">
@@ -95,9 +95,10 @@
 import { mapState } from 'vuex'
 import TextHighlight from 'vue-text-highlight'
 import ItemLeftStat from '~/components/ItemLeftStat.vue'
+import Logo from '~/components/Logo.vue'
 
 export default {
-  components: { TextHighlight, ItemLeftStat },
+  components: { TextHighlight, ItemLeftStat, Logo },
   props: {
     name: {
       type: String,
@@ -159,3 +160,10 @@ export default {
   }
 }
 </script>
+<style>
+  .ror-title-text {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+</style>
