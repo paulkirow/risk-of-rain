@@ -1,14 +1,16 @@
 {
   "57 Leaf Clover": {
-    "category": "Utility",
-    "desc": "All random effects are rolled <span class=text-utility>+1</span> <span class=text-stack>(+1 per stack)</span> times for a favorable outcome.",
+    "category": [
+      "Utility"
+    ],
+    "desc": "All random effects are rolled <span class=text-utility>+1</span> <span class=text-stack>(+1 per stack)</span> <span class=text-utility>times for a favorable outcome</span>.",
     "id": 35,
     "quote": "Luck is on your side.",
     "rarity": "Legendary",
     "stats": [
       {
         "add": "+1",
-        "stack": "Exponential",
+        "stack": "Linear",
         "stat": "Luck",
         "value": "1"
       }
@@ -17,7 +19,10 @@
     "url": "57 Leaf Clover.png"
   },
   "Aegis": {
-    "category": "Utility,Healing",
+    "category": [
+      "Utility",
+      "Healing"
+    ],
     "desc": "Healing past full grants you a <span class=text-heal>temporary barrier</span> for <span class=text-heal>50%</span> <span class=text-stack>(+50% per stack)</span> of the amount you <span class=text-heal>healed</span>.",
     "id": 80,
     "quote": "Healing past full grants you a temporary barrier.",
@@ -33,7 +38,9 @@
     "url": "Aegis.png"
   },
   "Alien Head": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "<span class=text-utility>Reduce skill cooldowns</span> by <span class=text-utility>25%</span> <span class=text-stack>(+25% per stack)</span>.",
     "id": 50,
     "quote": "Reduces cooldowns for your skills.",
@@ -48,8 +55,36 @@
     ],
     "url": "Alien Head.png"
   },
+  "Ancestral Incubator": {
+    "Boss": "Grandparent",
+    "category": [
+      "Utility",
+      "OnKillEffect"
+    ],
+    "desc": "<span class=text-damage>7%</span> chance <span class=text-stack>(+1% per stack)</span> on kill to <span class=text-utility>summon an Ancestral Pod</span> that distracts enemies.\r\n\r\nOnce it fully grows, it will hatch into an allied <span class=text-damage>Parent</span> with <span class=text-heal>100% health</span> <span class=text-stack>(+100% per stack)</span>.",
+    "id": 106,
+    "quote": "Chance on kill to summon an Ancestral Pod.",
+    "rarity": "NoTier",
+    "stats": [
+      {
+        "add": "+1%",
+        "stack": "Linear",
+        "stat": "Chance",
+        "value": "7%"
+      },
+      {
+        "add": "+100%",
+        "stack": "Linear",
+        "stat": "Parent Health",
+        "value": "100%"
+      }
+    ]
+  },
   "Armor-Piercing Rounds": {
-    "category": "Damage,AIBlacklist",
+    "category": [
+      "Damage",
+      "AIBlacklist"
+    ],
     "desc": "Deal an additional <span class=text-damage>20%</span> damage <span class=text-stack>(+20% per stack)</span> to bosses.",
     "id": 61,
     "quote": "Deal extra damage to bosses.",
@@ -65,8 +100,20 @@
     "unlock": "Advancement",
     "url": "Armor-Piercing Rounds.png"
   },
+  "Artifact Key": {
+    "Boss": "Bulwark's Ambry",
+    "category": [
+      "WorldUnique"
+    ],
+    "desc": "A stone shard with immense power.",
+    "id": 101,
+    "quote": "A stone shard with immense power.",
+    "rarity": "Boss"
+  },
   "AtG Missile Mk. 1": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-damage>10%</span> chance to fire a missile that deals <span class=text-damage>300%</span> <span class=text-stack>(+300% per stack)</span> TOTAL damage.",
     "id": 3,
     "quote": "Chance to fire a missile.",
@@ -82,7 +129,9 @@
     "url": "AtG Missile Mk. 1.png"
   },
   "Backup Magazine": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Add <span class=text-utility>+1</span> <span class=text-stack>(+1 per stack)</span> charge of your <span class=text-utility>Secondary skill</span>.",
     "id": 58,
     "quote": "Add an extra charge of your Secondary skill.",
@@ -99,7 +148,10 @@
     "url": "Backup Magazine.png"
   },
   "Bandolier": {
-    "category": "Utility,OnKillEffect",
+    "category": [
+      "Utility",
+      "OnKillEffect"
+    ],
     "desc": "<span class=text-utility>18%</span> <span class=text-stack>(+10% per stack)</span> chance on kill to drop an ammo pack that <span class=text-utility>resets all skill cooldowns</span>.",
     "id": 37,
     "quote": "Chance on kill to drop an ammo pack that resets all skill cooldowns.",
@@ -107,7 +159,7 @@
     "stats": [
       {
         "add": "+10%",
-        "stack": "Hyperbolic",
+        "stack": "Special",
         "stat": "Chance",
         "value": "18%"
       }
@@ -115,24 +167,17 @@
     "url": "Bandolier.png"
   },
   "Beads of Fealty": {
-    "category": "",
     "desc": "Seems to do nothing... <span class=text-danger>but...</span>",
     "id": 98,
     "quote": "Seems to do nothing... <span class=text-danger>but...</span>",
     "rarity": "Lunar",
-    "stats": [
-      {
-        "add": "",
-        "stack": "",
-        "stat": "",
-        "value": ""
-      }
-    ],
-    "unlock": "",
     "url": "Beads of Fealty.png"
   },
   "Berzerker's Pauldron": {
-    "category": "Damage,OnKillEffect",
+    "category": [
+      "Damage",
+      "OnKillEffect"
+    ],
     "desc": "<span class=text-damage>Killing 3 enemies</span> within <span class=text-damage>1</span> second sends you into a <span class=text-damage>frenzy</span> for <span class=text-damage>6s</span> <span class=text-stack>(+4s per stack)</span>. Increases <span class=text-utility>movement speed</span> by <span class=text-utility>50%</span> and <span class=text-damage>attack speed</span> by <span class=text-damage>100%</span>.",
     "id": 46,
     "quote": "Enter a frenzy after killing 3 enemies in quick succession.",
@@ -149,7 +194,10 @@
     "url": "Berzerker's Pauldron.png"
   },
   "BoostDamage": {
-    "category": "Hidden,Damage",
+    "category": [
+      "Hidden",
+      "Damage"
+    ],
     "id": 48,
     "rarity": "NoTier",
     "stats": [
@@ -162,7 +210,11 @@
     ]
   },
   "BoostHP": {
-    "category": "Hidden,Utility",
+    "category": [
+      "Hidden",
+      "Utility"
+    ],
+    "id": 47,
     "rarity": "NoTier",
     "stats": [
       {
@@ -174,7 +226,11 @@
     ]
   },
   "Brainstalks": {
-    "category": "Utility,AIBlacklist,OnKillEffect",
+    "category": [
+      "Utility",
+      "AIBlacklist",
+      "OnKillEffect"
+    ],
     "desc": "Upon killing an elite monster, <span class=text-damage>enter a frenzy</span> for <span class=text-damage>4s</span> <span class=text-stack>(+4s per stack)</span> where <span class=text-utility>skills have no cooldowns</span>.",
     "id": 70,
     "quote": "Skills have NO cooldowns for a short period after killing an elite.",
@@ -191,7 +247,9 @@
     "url": "Brainstalks.png"
   },
   "Brilliant Behemoth": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "All your <span class=text-damage>attacks explode</span> in a <span class=text-damage>4m</span> <span class=text-stack>(+2.5m per stack)</span> radius for a bonus <span class=text-damage>60%</span> TOTAL damage to nearby enemies.",
     "id": 2,
     "quote": "All your attacks explode!",
@@ -207,23 +265,28 @@
     "url": "Brilliant Behemoth.png"
   },
   "Brittle Crown": {
-    "category": "Utility",
-    "desc": "<span class=text-utility>30% chance on hit</span> to gain <span class=text-utility>2 gold</span> <span class=text-stack>(+2 per stack)</span>. <span class=text-utility>Scales over time</span>.\r\n\r\n<span class=text-hit-points>Lose gold</span> on taking damage equal to <span class=text-hit-points>100%</span> <span class=text-stack>(+100% per stack)</span> of the <span class=text-hit-points>maximum health percentage you lost</span>.",
+    "category": [
+      "Utility"
+    ],
+    "desc": "<span class=text-utility>30% chance on hit</span> to gain <span class=text-utility>2 <span class=text-stack>(+2 per stack)</span> gold</span>. <span class=text-utility>Scales over time.</span>\r\n\r\n<span class=text-hit-points>Lose gold</span> on taking damage equal to <span class=text-hit-points>100%</span> <span class=text-stack>(+100% per stack)</span> of the <span class=text-hit-points>maximum health percentage you lost</span>.",
     "id": 44,
     "quote": "Gain gold on hit... <span class=text-danger>BUT lose gold on getting hit</span>.",
     "rarity": "Lunar",
     "stats": [
       {
-        "add": "+3",
+        "add": "+2",
         "stack": "Linear",
         "stat": "Chance",
-        "value": "3"
+        "value": "2"
       }
     ],
     "url": "Brittle Crown.png"
   },
   "Bundle of Fireworks": {
-    "category": "Damage,AIBlacklist",
+    "category": [
+      "Damage",
+      "AIBlacklist"
+    ],
     "desc": "Activating an interactable <span class=text-damage>launches 8 <span class=text-stack>(+4 per stack)</span> fireworks</span> that deal <span class=text-damage>300%</span> base damage.",
     "id": 42,
     "quote": "Activating an interactable launches fireworks at nearby enemies.",
@@ -240,20 +303,17 @@
     "url": "Bundle of Fireworks.png"
   },
   "BurnNearby": {
-    "category": "Abandoned",
+    "category": [
+      "Abandoned"
+    ],
     "id": 54,
-    "rarity": "NoTier",
-    "stats": [
-      {
-        "add": "",
-        "stack": "",
-        "stat": "",
-        "value": ""
-      }
-    ]
+    "rarity": "NoTier"
   },
   "Bustling Fungus": {
-    "category": "Healing,AIBlacklist",
+    "category": [
+      "Healing",
+      "AIBlacklist"
+    ],
     "desc": "After standing still for <span class=text-heal>2</span> seconds, create a zone that <span class=text-heal>heals</span> for <span class=text-heal>4.5%</span> <span class=text-stack>(+2.25% per stack)</span> of your <span class=text-heal>health</span> every second to all allies within <span class=text-heal>3m</span> <span class=text-stack>(+1.5m per stack)</span>.",
     "id": 16,
     "quote": "Heal all nearby allies after standing still for 2 seconds.",
@@ -275,23 +335,28 @@
     "url": "Bustling Fungus.png"
   },
   "Cautious Slug": {
-    "category": "Healing",
-    "desc": "Increases <span class=text-heal>passive health regeneration</span> by <span class=text-heal>3 hp/s</span> <span class=text-stack>(+3 hp/s per stack)</span> while outside of combat.",
+    "category": [
+      "Healing"
+    ],
+    "desc": "Increases <span class=text-heal>base health regeneration</span> by <span class=text-heal>+4 hp/s</span> <span class=text-stack>(+4 hp/s per stack)</span> while outside of combat.",
     "id": 27,
     "quote": "Rapidly heal outside of danger.",
     "rarity": "Common",
     "stats": [
       {
-        "add": "+3 hp/s%",
+        "add": "+4 hp/s",
         "stack": "Linear",
         "stat": "Health Regen",
-        "value": "3 hp/s"
+        "value": "4 hp/s"
       }
     ],
     "url": "Cautious Slug.png"
   },
   "Ceremonial Dagger": {
-    "category": "Damage,OnKillEffect",
+    "category": [
+      "Damage",
+      "OnKillEffect"
+    ],
     "desc": "Killing an enemy fires out <span class=text-damage>3</span> <span class=text-damage>homing daggers</span> that deal <span class=text-damage>150%</span> <span class=text-stack>(+150% per stack)</span> base damage.",
     "id": 5,
     "quote": "Killing an enemy releases homing daggers.",
@@ -307,7 +372,9 @@
     "url": "Ceremonial Dagger.png"
   },
   "Chronobauble": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "<span class=text-utility>Slow</span> enemies on hit for <span class=text-utility>-60% movement speed</span> for <span class=text-utility>2s</span> <span class=text-stack>(+2s per stack)</span>.",
     "id": 65,
     "quote": "Slow enemies on hit.",
@@ -323,7 +390,9 @@
     "url": "Chronobauble.png"
   },
   "Corpsebloom": {
-    "category": "Healing",
+    "category": [
+      "Healing"
+    ],
     "desc": "<span class=text-heal>Heal +100%</span> <span class=text-stack>(+100% per stack)</span> more. <span class=text-heal>All healing is applied over time</span>. Can <span class=text-heal>heal</span> for a <span class=text-heal>maximum</span> of <span class=text-heal>10%</span> <span class=text-stack>(reduced by 50% per stack)</span> of your <span class=text-heal>health per second</span>.",
     "id": 71,
     "quote": "Double your healing... <span class=text-danger>BUT it's applied over time</span>.",
@@ -345,7 +414,10 @@
     "url": "Corpsebloom.png"
   },
   "CrippleWardOnLevel": {
-    "category": "Abandoned,Utility",
+    "category": [
+      "Abandoned",
+      "Utility"
+    ],
     "id": 56,
     "rarity": "NoTier",
     "stats": [
@@ -358,20 +430,25 @@
     ]
   },
   "CritHeal": {
-    "category": "Abandoned,Healing",
+    "category": [
+      "Abandoned",
+      "Healing"
+    ],
     "id": 55,
     "rarity": "NoTier",
     "stats": [
       {
         "add": "+0%",
         "stack": "None",
-        "stat": "Critical Strike Chance",
+        "stat": "Critical Chance",
         "value": "5%"
       }
     ]
   },
   "Crowbar": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Deal <span class=text-damage>150%</span> <span class=text-stack>(+50% per stack)</span> damage to enemies above <span class=text-damage>90% health</span>.",
     "id": 17,
     "quote": "Deal more damage to healthy enemies.",
@@ -387,8 +464,27 @@
     "unlock": "The Basics",
     "url": "Crowbar.png"
   },
+  "Death Mark": {
+    "category": [
+      "Damage"
+    ],
+    "desc": "Enemies with <span class=text-damage>4</span> or more debuffs are <span class=text-damage>marked for death</span>, increasing damage taken by <span class=text-damage>50%</span> <span class=text-stack>(+50% per stack)</span> from all sources for <span class=text-utility>7</span> seconds.\r\n\r\n<span class=text-info>Note:</span> Death Mark is currently bugged and does not apply the stacking damage bonus beyond one stack.",
+    "id": 104,
+    "quote": "Enemies with 4 or more debuffs are marked for death, taking bonus damage.",
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "add": "+50%",
+        "stack": "Linear",
+        "stat": "Damage",
+        "value": "50%"
+      }
+    ]
+  },
   "Dio's Best Friend": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "<span class=text-utility>Upon death</span>, this item will be <span class=text-utility>consumed</span> and you will <span class=text-heal>return to life</span> with <span class=text-heal>3 seconds of invulnerability</span>.",
     "id": 66,
     "quote": "Cheat death. Consumed on use.",
@@ -405,7 +501,9 @@
     "url": "Dio's Best Friend.png"
   },
   "DrizzlePlayerHelper": {
-    "category": "Hidden",
+    "category": [
+      "Hidden"
+    ],
     "id": 77,
     "rarity": "NoTier",
     "stats": [
@@ -424,7 +522,10 @@
     ]
   },
   "Energy Drink": {
-    "category": "Utility,SprintRelated",
+    "category": [
+      "Utility",
+      "SprintRelated"
+    ],
     "desc": "<span class=text-utility>Sprint speed</span> is improved by <span class=text-utility>30%</span> <span class=text-stack>(+20% per stack)</span>.",
     "id": 57,
     "quote": "Sprint faster.",
@@ -440,7 +541,9 @@
     "url": "Energy Drink.png"
   },
   "Focus Crystal": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Increase damage to enemies within <span class=text-damage>13m</span> by <span class=text-damage>15%</span> <span class=text-stack>(+15% per stack)</span>.",
     "id": 87,
     "quote": "Deal bonus damage to nearby enemies.",
@@ -453,11 +556,38 @@
         "value": "15%"
       }
     ],
-    "unlock": "",
     "url": "Focus Crystal.png"
   },
+  "Focused Convergence": {
+    "category": [
+      "Utility",
+      "AIBlacklist"
+    ],
+    "desc": "Teleporters charge <span class=text-utility>30% <span class=text-stack>(+30% per stack)</span> faster</span>, but the size of the Teleporter zone is <span class=text-hit-points>50%</span> <span class=text-stack>(-50% per stack)</span> smaller. ",
+    "id": 107,
+    "quote": "Increase the speed of Teleporter charging... <span class=text-danger>BUT reduce the size of the zone</span>.",
+    "rarity": "Lunar",
+    "stats": [
+      {
+        "add": "+30%",
+        "stack": "Linear",
+        "stat": "Charge Speed",
+        "value": "30%"
+      },
+      {
+        "add": "-50%",
+        "stack": "Hyperbolic",
+        "stat": "Teleporter Zone",
+        "value": "50%"
+      }
+    ],
+    "unlock": "Never Back Down"
+  },
   "Fresh Meat": {
-    "category": "Healing,OnKillEffect",
+    "category": [
+      "Healing",
+      "OnKillEffect"
+    ],
     "desc": "Increases <span class=text-heal>base health regeneration</span> by <span class=text-heal>+2 hp/s</span> for <span class=text-utility>3s</span> <span class=text-stack>(+3s per stack)</span> after killing an enemy.",
     "id": 91,
     "quote": "Regenerate health after killing an enemy.",
@@ -470,11 +600,13 @@
         "value": "3s"
       }
     ],
-    "unlock": "",
     "url": "Fresh Meat.png"
   },
   "Frost Relic": {
-    "category": "Damage,OnKillEffect",
+    "category": [
+      "Damage",
+      "OnKillEffect"
+    ],
     "desc": "Killing an enemy surrounds you with an <span class=text-damage>ice storm</span> that deals <span class=text-damage>600% damage per second</span>. The storm <span class=text-damage>grows with every kill</span>, increasing its radius by <span class=text-damage>1m</span>. Stacks up to <span class=text-damage>6m</span> <span class=text-stack>(+6m per stack)</span>.",
     "id": 14,
     "quote": "Killing enemies surrounds you with an ice storm.",
@@ -490,7 +622,11 @@
     "url": "Frost Relic.png"
   },
   "Fuel Cell": {
-    "category": "Utility,OnKillEffect,EquipmentRelated",
+    "category": [
+      "Utility",
+      "OnKillEffect",
+      "EquipmentRelated"
+    ],
     "desc": "Hold an <span class=text-utility>additional equipment charge</span> <span class=text-stack>(+1 per stack)</span>. <span class=text-utility>Reduce equipment cooldown</span> by <span class=text-utility>15%</span> <span class=text-stack>(+15% per stack)</span>.",
     "id": 30,
     "quote": "Hold an additional equipment charge. Reduce equipment cooldown.",
@@ -499,13 +635,13 @@
       {
         "add": "+1",
         "stack": "Linear",
-        "stat": "Equipment Charge",
+        "stat": "Charges",
         "value": "1"
       },
       {
         "add": "+15%",
         "stack": "Exponential",
-        "stat": "Equipment Cooldown",
+        "stat": "Cooldown",
         "value": "15%"
       }
     ],
@@ -513,7 +649,10 @@
     "url": "Fuel Cell.png"
   },
   "Gasoline": {
-    "category": "Damage,OnKillEffect",
+    "category": [
+      "Damage",
+      "OnKillEffect"
+    ],
     "desc": "Killing an enemy <span class=text-damage>ignites</span> all enemies within <span class=text-damage>12m</span> <span class=text-stack>(+4m per stack)</span>. Enemies <span class=text-damage>burn</span> for <span class=text-damage>150%</span> <span class=text-stack>(+75% per stack)</span> base damage.",
     "id": 39,
     "quote": "Killing enemies sets nearby enemies on fire.",
@@ -536,24 +675,28 @@
   },
   "Genesis Loop": {
     "Boss": "Wandering Vagrant",
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Falling below <span class=text-hit-points>25% health</span> causes you to explode, dealing <span class=text-damage>6000% base damage</span>. Recharges every <span class=text-utility>30 seconds</span> <span class=text-stack>(-50% per stack)</span>.",
     "id": 97,
     "quote": "Fire an electric nova at low health.",
     "rarity": "Boss",
     "stats": [
       {
-        "add": "-50%",
-        "stack": "",
-        "stat": "Recharge",
-        "value": "30s"
+        "add": "+50%",
+        "stack": "Linear",
+        "stat": "Recharge Speed",
+        "value": "100%"
       }
     ],
-    "unlock": "",
     "url": "Genesis Loop.png"
   },
   "Gesture of the Drowned": {
-    "category": "Utility,EquipmentRelated",
+    "category": [
+      "Utility",
+      "EquipmentRelated"
+    ],
     "desc": "<span class=text-utility>Reduce Equipment cooldown</span> by <span class=text-utility>50%</span> <span class=text-stack>(+15% per stack)</span>. Forces your Equipment to <span class=text-utility>activate</span> whenever it is off <span class=text-utility>cooldown</span>.",
     "id": 74,
     "quote": "Dramatically reduce Equipment cooldown... <span class=text-danger>BUT it automatically activates</span>.",
@@ -570,7 +713,10 @@
     "url": "Gesture of the Drowned.png"
   },
   "Ghor's Tome": {
-    "category": "Utility,OnKillEffect",
+    "category": [
+      "Utility",
+      "OnKillEffect"
+    ],
     "desc": "<span class=text-utility>4%</span> <span class=text-stack>(+4% on stack)</span> chance on kill to drop a treasure worth <span class=text-utility>$25</span>. <span class=text-utility>Scales over time.</span>",
     "id": 94,
     "quote": "Chance on kill to drop a treasure.",
@@ -578,32 +724,29 @@
     "stats": [
       {
         "add": "+4%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Drop Chance",
         "value": "4%"
       }
     ],
-    "unlock": "",
     "url": "Ghor's Tome.png"
   },
   "Ghost": {
-    "category": "Hidden",
+    "category": [
+      "Hidden"
+    ],
     "id": 72,
-    "rarity": "NoTier",
-    "stats": [
-      {
-        "add": "",
-        "stack": "",
-        "stat": "",
-        "value": ""
-      }
-    ]
+    "rarity": "NoTier"
   },
   "H3AD-5T v2": {
-    "category": "Damage,Utility,AIBlacklist",
+    "category": [
+      "Damage",
+      "Utility",
+      "AIBlacklist"
+    ],
     "desc": "Increase <span class=text-utility>jump height</span>. Creates a <span class=text-damage>10m</span> radius <span class=text-damage>kinetic explosion</span> on hitting the ground, dealing <span class=text-damage>2300%</span> base damage that scales up with <span class=text-damage>speed</span>. Recharges in <span class=text-damage>10</span> <span class=text-stack>(-50% per stack)</span> seconds.",
     "id": 22,
-    "quote": "Increase jump height. Hold 'Use' to slam down to the ground.",
+    "quote": "Increase jump height. Hold 'Interact' to slam down to the ground.",
     "rarity": "Legendary",
     "stats": [
       {
@@ -617,7 +760,10 @@
   },
   "Halcyon Seed": {
     "Boss": "Aurelionite",
-    "category": "Utility,WorldUnique",
+    "category": [
+      "Utility",
+      "WorldUnique"
+    ],
     "desc": "Summon <span class=text-damage>Aurelionite</span> during the teleporter event. It has <span class=text-damage>100% <span class=text-stack>(+50% per stack)</span> damage</span> and <span class=text-heal>100% <span class=text-stack>(+100% per stack)</span> health</span>.",
     "id": 82,
     "quote": "Summon Aurelionite during the Teleporter event.",
@@ -639,7 +785,11 @@
     "url": "Halcyon Seed.png"
   },
   "Happiest Mask": {
-    "category": "Damage,Utility,OnKillEffect",
+    "category": [
+      "Damage",
+      "Utility",
+      "OnKillEffect"
+    ],
     "desc": "Killing enemies has a <span class=text-damage>7%</span> chance to <span class=text-damage>spawn a ghost</span> of the killed enemy with <span class=text-damage>1500%</span> damage. Lasts <span class=text-damage>30s</span> <span class=text-stack>(+30s per stack)</span>.",
     "id": 15,
     "quote": "Chance on killing an enemy to summon a ghost.",
@@ -655,7 +805,9 @@
     "url": "Happiest Mask.png"
   },
   "Hardlight Afterburner": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Add <span class=text-utility>+2</span> <span class=text-stack>(+2 per stack)</span> charges of your <span class=text-utility>Utility skill</span>. <span class=text-utility>Reduces Utility skill cooldown</span> by <span class=text-utility>33%</span>.",
     "id": 68,
     "quote": "Add 2 extra charges of your Utility skill. Reduce Utility skill cooldown.",
@@ -671,7 +823,9 @@
     "url": "Hardlight Afterburner.png"
   },
   "Harvester's Scythe": {
-    "category": "Healing",
+    "category": [
+      "Healing"
+    ],
     "desc": "Gain <span class=text-damage>5% critical chance</span> <span class=text-stack>(+0% per stack)</span>. <span class=text-damage>Critical strikes</span> <span class=text-heal>heal</span> for <span class=text-heal>8</span> <span class=text-stack>(+4 per stack)</span> <span class=text-heal>health</span>.",
     "id": 26,
     "quote": "'Critical Strikes' heal you.",
@@ -694,12 +848,14 @@
     "url": "Harvester's Scythe.png"
   },
   "HealthDecay": {
-    "category": "Hidden",
+    "category": [
+      "Hidden"
+    ],
     "id": 73,
     "rarity": "NoTier",
     "stats": [
       {
-        "add": "",
+        "add": "-",
         "stack": "Special",
         "stat": "Health Regen",
         "value": "- Health/Stacksize"
@@ -707,7 +863,10 @@
     ]
   },
   "Hopoo Feather": {
-    "category": "Utility,AIBlacklist",
+    "category": [
+      "Utility",
+      "AIBlacklist"
+    ],
     "desc": "Gain <span class=text-utility>+1</span> <span class=text-stack>(+1 per stack)</span> maximum <span class=text-utility>jump count</span>.",
     "id": 9,
     "quote": "Gain an extra jump.",
@@ -723,8 +882,12 @@
     "url": "Hopoo Feather.png"
   },
   "Infusion": {
-    "category": "Utility,Healing,OnKillEffect",
-    "desc": "Killing an enemy increases your <span class=text-heal>health permanently</span> by <span class=text-heal>1</span>, up to a <span class=text-heal>maximum</span> of <span class=text-heal>100 <span class=text-stack>(+100 per stack)</span> health</span>.",
+    "category": [
+      "Utility",
+      "Healing",
+      "OnKillEffect"
+    ],
+    "desc": "Killing an enemy increases your <span class=text-heal>health permanently</span> by <span class=text-heal>1</span> <span class=text-stack>(+1 per stack)</span>, up to a <span class=text-heal>maximum</span> of <span class=text-heal>100 <span class=text-stack>(+100 per stack)</span> health</span>.",
     "id": 33,
     "quote": "Killing an enemy permanently increases your health, up to 100.",
     "rarity": "Uncommon",
@@ -732,16 +895,38 @@
       {
         "add": "+100",
         "stack": "Linear",
-        "stat": "Maximum Health Increase",
+        "stat": "Health Increase",
         "value": "100"
       }
     ],
     "unlock": "Slaughter",
     "url": "Infusion.png"
   },
+  "Interstellar Desk Plant": {
+    "category": [
+      "Healing"
+    ],
+    "desc": "On kill, plant a <span class=text-heal>healing</span> fruit seed that grows into a plant after <span class=text-utility>5</span> seconds.\r\n\r\nThe plant <span class=text-heal>heals</span> for <span class=text-heal>5%</span> of <span class=text-heal>maximum health</span> every second to all allies within <span class=text-heal>3m</span> <span class=text-stack>(+1.5m per stack)</span>. Lasts <span class=text-utility>10</span> seconds",
+    "id": 105,
+    "quote": "Plant a healing fruit on kill.",
+    "rarity": "Legendary",
+    "stats": [
+      {
+        "add": "+1.5m",
+        "stack": "Linear",
+        "stat": "Radius",
+        "value": "3m"
+      }
+    ]
+  },
   "Irradiant Pearl": {
     "Boss": "Cleansing Pool",
-    "category": "Damage,Healing,Utility,WorldUnique",
+    "category": [
+      "Damage",
+      "Healing",
+      "Utility",
+      "WorldUnique"
+    ],
     "desc": "Increases <span class=text-utility>ALL stats</span> by <span class=text-utility>10%</span> <span class=text-stack>(+10% per stack)</span>.",
     "id": 93,
     "quote": "Increase ALL of your stats.",
@@ -749,52 +934,53 @@
     "stats": [
       {
         "add": "+10%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Health",
         "value": "10%"
       },
       {
         "add": "+10%",
-        "stack": "",
-        "stat": "Regen multiplier",
+        "stack": "Linear",
+        "stat": "Regen Multiplier",
         "value": "10%"
       },
       {
         "add": "+10%",
-        "stack": "",
-        "stat": "Movespeed",
+        "stack": "Linear",
+        "stat": "Movement Speed",
         "value": "10%"
       },
       {
         "add": "+10%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Damage",
         "value": "10%"
       },
       {
         "add": "+10%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Attack Speed",
         "value": "10%"
       },
       {
         "add": "+10%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Crit Chance",
         "value": "10%"
       },
       {
         "add": "+10%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Armor Multiplier",
         "value": "10%"
       }
     ],
-    "unlock": "",
     "url": "Irradiant Pearl.png"
   },
   "Kjaro's Band": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-damage>8%</span> chance on hit to strike an enemy with a <span class=text-damage>runic flame tornado</span>, dealing <span class=text-damage>500%</span> <span class=text-stack>(+250% per stack)</span> TOTAL damage.",
     "id": 64,
     "quote": "Chance on hit to strike an enemy with a runic flame tornado.",
@@ -811,7 +997,9 @@
     "url": "Kjaro's Band.png"
   },
   "Leeching Seed": {
-    "category": "Healing",
+    "category": [
+      "Healing"
+    ],
     "desc": "Dealing damage <span class=text-heal>heals</span> you for <span class=text-heal>1 <span class=text-stack>(+1 per stack)</span> health</span>.",
     "id": 13,
     "quote": "Dealing damage heals you.",
@@ -827,7 +1015,9 @@
     "url": "Leeching Seed.png"
   },
   "Lens-Maker's Glasses": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Your attacks have a <span class=text-damage>10%</span> <span class=text-stack>(+10% per stack)</span> chance to '<span class=text-damage>Critically Strike</span>', dealing <span class=text-damage>double damage</span>.",
     "id": 7,
     "quote": "Chance to 'Critically Strike', dealing double damage.",
@@ -836,14 +1026,17 @@
       {
         "add": "+10%",
         "stack": "Linear",
-        "stat": "Critical Strike Chance",
+        "stat": "Critical Chance",
         "value": "10%"
       }
     ],
     "url": "Lens-Maker's Glasses.png"
   },
   "Lepton Daisy": {
-    "category": "Healing,AIBlacklist",
+    "category": [
+      "Healing",
+      "AIBlacklist"
+    ],
     "desc": "Release a <span class=text-heal>healing nova</span> during the Teleporter event, <span class=text-heal>healing</span> all nearby allies for <span class=text-heal>50%</span> of their maximum health. Occurs <span class=text-heal>1</span> <span class=text-stack>(+1 per stack)</span> times.",
     "id": 86,
     "quote": "Periodically release a healing nova during the Teleporter event.",
@@ -856,12 +1049,14 @@
         "value": "1"
       }
     ],
-    "unlock": "",
     "url": "Lepton Daisy.png"
   },
   "Little Disciple": {
     "Boss": "Grovetender",
-    "category": "Damage,SprintRelated",
+    "category": [
+      "Damage",
+      "SprintRelated"
+    ],
     "desc": "Fire a <span class=text-damage>tracking wisp</span> for <span class=text-damage>100% <span class=text-stack>(+100% per stack)</span> damage</span>. Fires every 0.5 seconds while sprinting.",
     "id": 83,
     "quote": "Fire tracking wisps while sprinting.",
@@ -877,68 +1072,69 @@
     "url": "Little Disciple.png"
   },
   "MageAttunement": {
-    "category": "Abandoned",
+    "category": [
+      "Abandoned"
+    ],
     "id": 45,
-    "rarity": "NoTier",
-    "stats": [
-      {
-        "add": "",
-        "stack": "",
-        "stat": "",
-        "value": ""
-      }
-    ]
+    "rarity": "NoTier"
   },
   "Medkit": {
-    "category": "Healing",
-    "desc": "<span class=text-heal>Heal</span> for <span class=text-heal>10 <span class=text-stack>(+10 per stack)</span> health</span> 1.1 seconds after getting hurt.",
+    "category": [
+      "Healing"
+    ],
+    "desc": "<span class=text-heal>Heal</span> for <span class=text-heal>25 <span class=text-stack>(+25 per stack)</span> health</span> 2 seconds after getting hurt.",
     "id": 36,
     "quote": "Receive a delayed heal after taking damage.",
     "rarity": "Common",
     "stats": [
       {
-        "add": "+10",
+        "add": "+25",
         "stack": "Linear",
         "stat": "Heal",
-        "value": "10"
+        "value": "25"
       }
     ],
     "unlock": "Elite Slayer",
     "url": "Medkit.png"
   },
   "MonsoonPlayerHelper": {
-    "category": "Hidden",
-    "desc": "",
+    "category": [
+      "Hidden"
+    ],
     "id": 89,
-    "quote": "",
     "rarity": "NoTier",
     "stats": [
       {
         "add": "0",
         "stack": "None",
-        "stat": "Health Regen Multiplier",
+        "stat": "Regen Multiplier",
         "value": "-0.4"
       }
     ]
   },
   "Monster Tooth": {
-    "category": "Healing,OnKillEffect",
+    "category": [
+      "Healing",
+      "OnKillEffect"
+    ],
     "desc": "Killing an enemy spawns a <span class=text-heal>healing orb</span> that heals for <span class=text-heal>8 <span class=text-stack>(+8 per stack)</span> health</span>.",
     "id": 6,
     "quote": "Drop a healing orb on kill.",
     "rarity": "Common",
     "stats": [
       {
-        "add": "+6",
+        "add": "+8",
         "stack": "Linear",
         "stat": "Health per Orb",
-        "value": "6"
+        "value": "8"
       }
     ],
     "url": "Monster Tooth.png"
   },
   "N'kuhana's Opinion": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Store <span class=text-heal>100%</span> <span class=text-stack>(+100% per stack)</span> of healing as <span class=text-heal>Soul Energy</span>. After your <span class=text-heal>Soul Energy</span> reaches <span class=text-heal>10%</span> of your <span class=text-heal>maximum health</span>, <span class=text-damage>fire a skull</span> that deals <span class=text-damage>250%</span> of your <span class=text-heal>Soul Energy</span> as <span class=text-damage>damage</span>.",
     "id": 31,
     "quote": "Fire haunting skulls when healed.",
@@ -955,7 +1151,10 @@
     "url": "N'kuhana's Opinion.png"
   },
   "Old Guillotine": {
-    "category": "Damage,AIBlacklist",
+    "category": [
+      "Damage",
+      "AIBlacklist"
+    ],
     "desc": "Instantly kill Elite monsters below <span class=text-hit-points>20% <span class=text-stack>(+20% per stack)</span> health</span>.",
     "id": 78,
     "quote": "Instantly kill low health Elite monsters.",
@@ -968,10 +1167,13 @@
         "value": "20%"
       }
     ],
+    "unlock": "Cut Down",
     "url": "Old Guillotine.png"
   },
   "Old War Stealthkit": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Chance on taking damage to gain <span class=text-utility>40% movement speed</span> and <span class=text-utility>invisibility</span> for <span class=text-utility>3s</span> <span class=text-stack>(+1.5s per stack)</span>. Chance increases the more damage you take.",
     "id": 25,
     "quote": "Turn invisible on taking heavy damage.",
@@ -980,14 +1182,16 @@
       {
         "add": "+1.5s",
         "stack": "Linear",
-        "stat": "Invisibility Duration",
+        "stat": "Duration",
         "value": "3s"
       }
     ],
     "url": "Old War Stealthkit.png"
   },
   "Paul's Goat Hoof": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Increases <span class=text-utility>movement speed</span> by <span class=text-utility>14%</span> <span class=text-stack>(+14% per stack)</span>.",
     "id": 8,
     "quote": "Move faster.",
@@ -1005,7 +1209,10 @@
   },
   "Pearl": {
     "Boss": "Cleansing Pool",
-    "category": "Utility,WorldUnique",
+    "category": [
+      "Utility",
+      "WorldUnique"
+    ],
     "desc": "Increases <span class=text-heal>maximum health</span> by <span class=text-heal>10%</span> <span class=text-stack>(+10% per stack)</span>.",
     "id": 92,
     "quote": "Increase your maximum health.",
@@ -1013,16 +1220,17 @@
     "stats": [
       {
         "add": "+10%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Health",
         "value": "10%"
       }
     ],
-    "unlock": "",
     "url": "Pearl.png"
   },
   "Personal Shield Generator": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Gain a <span class=text-heal>shield</span> equal to <span class=text-heal>8%</span> <span class=text-stack>(+8% per stack)</span> of your maximum health. Recharges outside of danger.",
     "id": 29,
     "quote": "Gain a recharging shield.",
@@ -1038,7 +1246,9 @@
     "url": "Personal Shield Generator.png"
   },
   "Predatory Instincts": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Gain <span class=text-damage>5% critical chance</span> <span class=text-stack>(+0% per stack)</span>. <span class=text-damage>Critical strikes</span> increase <span class=text-damage>attack speed</span> by <span class=text-damage>12%</span>. Maximum cap of <span class=text-damage>36% <span class=text-stack>(+24% per stack)</span> attack speed</span>.",
     "id": 19,
     "quote": "'Critical Strikes' increase attack speed. Stacks 3 times.",
@@ -1062,7 +1272,9 @@
   },
   "Queen's Gland": {
     "Boss": "Beetle Queen",
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Every 30 seconds, <span class=text-utility>summon a Beetle Guard</span> with bonus <span class=text-damage>300%</span> damage and <span class=text-heal>100% health</span>. Can have up to <span class=text-utility>1</span> <span class=text-stack>(+1 per stack)</span> Guards at a time.",
     "id": 53,
     "quote": "Recruit a Beetle Guard.",
@@ -1078,7 +1290,10 @@
     "url": "Queen's Gland.png"
   },
   "Razorwire": {
-    "category": "Damage,AIBlacklist",
+    "category": [
+      "Damage",
+      "AIBlacklist"
+    ],
     "desc": "Getting hit causes you to explode in a burst of razors, dealing <span class=text-damage>160% damage</span>. Hits up to <span class=text-damage>5</span> <span class=text-stack>(+2 per stack)</span> targets in a <span class=text-damage>25m</span> <span class=text-stack>(+10m per stack)</span> radius",
     "id": 90,
     "quote": "Retaliate in a burst of razors on taking damage.",
@@ -1097,11 +1312,12 @@
         "value": "25m"
       }
     ],
-    "unlock": "",
     "url": "Razorwire.png"
   },
   "Red Whip": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "Leaving combat boosts your <span class=text-utility>movement speed</span> by <span class=text-utility>30%</span> <span class=text-stack>(+30% per stack)</span>.",
     "id": 21,
     "quote": "Move fast out of combat.",
@@ -1117,7 +1333,9 @@
     "url": "Red Whip.png"
   },
   "Rejuvenation Rack": {
-    "category": "Healing",
+    "category": [
+      "Healing"
+    ],
     "desc": "<span class=text-heal>Heal +100%</span> <span class=text-stack>(+100% per stack)</span> more.",
     "id": 75,
     "quote": "Double the strength of healing.",
@@ -1133,8 +1351,28 @@
     "unlock": "Naturopath",
     "url": "Rejuvenation Rack.png"
   },
+  "Repulsion Armor Plate": {
+    "category": [
+      "Utility"
+    ],
+    "desc": "Reduce all <span class=text-damage>incoming damage</span> by <span class=text-damage>5<span class=text-stack> (+5 per stack)</span></span>. Cannot be reduced below <span class=text-damage>1</span>.",
+    "id": 102,
+    "quote": "Receive flat damage reduction from all attacks.",
+    "rarity": "Common",
+    "stats": [
+      {
+        "add": "+5",
+        "stack": "Linear",
+        "stat": "Damage Reduction",
+        "value": "5"
+      }
+    ]
+  },
   "Resonance Disc": {
-    "category": "Damage,OnKillEffect",
+    "category": [
+      "Damage",
+      "OnKillEffect"
+    ],
     "desc": "Killing enemies charges the Resonance Disc. The disc launches itself toward a target for <span class=text-damage>300%</span> base damage <span class=text-stack>(+300% per stack)</span>, piercing all enemies it doesn't kill, and then explodes for <span class=text-damage>1000%</span> base damage <span class=text-stack>(+1000% per stack)</span>. Returns to the user, striking all enemies along the way for <span class=text-damage>300%</span> base damage <span class=text-stack>(+300% per stack)</span>.",
     "id": 95,
     "quote": "Obtain a Resonance Disc charged by killing enemies. Fires automatically when fully charged.",
@@ -1142,22 +1380,24 @@
     "stats": [
       {
         "add": "+300%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Damage",
         "value": "300%"
       },
       {
         "add": "+1000%",
-        "stack": "",
+        "stack": "Linear",
         "stat": "Explosion",
         "value": "1000%"
       }
     ],
-    "unlock": "",
     "url": "Resonance Disc.png"
   },
   "Rose Buckler": {
-    "category": "Utility,SprintRelated",
+    "category": [
+      "Utility",
+      "SprintRelated"
+    ],
     "desc": "<span class=text-heal>Increase armor</span> by <span class=text-heal>30</span> <span class=text-stack>(+30 per stack)</span> <span class=text-utility>while sprinting</span>.",
     "id": 62,
     "quote": "Reduce incoming damage while sprinting.",
@@ -1173,7 +1413,9 @@
     "url": "Rose Buckler.png"
   },
   "Runald's Band": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-damage>8%</span> chance on hit to strike an enemy with a <span class=text-damage>runic ice blast</span>, <span class=text-utility>slowing</span> them by <span class=text-utility>80%</span> and dealing <span class=text-damage>250%</span> <span class=text-stack>(+125% per stack)</span> TOTAL damage.",
     "id": 63,
     "quote": "Chance on hit to strike an enemy with a runic ice blast.",
@@ -1190,7 +1432,10 @@
     "url": "Runald's Band.png"
   },
   "Rusted Key": {
-    "category": "Utility,AIBlacklist",
+    "category": [
+      "Utility",
+      "AIBlacklist"
+    ],
     "desc": "A <span class=text-utility>hidden cache</span> containing an item will appear in a random location <span class=text-utility>on each stage</span>. <span class=text-stack>(Increases rarity of the item per stack)</span>.",
     "id": 60,
     "quote": "Gain access to a Rusty Lockbox that contains treasure.",
@@ -1207,12 +1452,20 @@
     "url": "Rusted Key.png"
   },
   "Sentient Meat Hook": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-damage>20%</span> <span class=text-stack>(+20% per stack)</span> chance on hit to <span class=text-damage>fire homing hooks</span> at up to <span class=text-damage>10</span> <span class=text-stack>(+5 per stack)</span> enemies for <span class=text-damage>100%</span> TOTAL damage.",
     "id": 38,
     "quote": "Chance to hook all nearby enemies.",
     "rarity": "Legendary",
     "stats": [
+      {
+        "add": "+20%",
+        "stack": "Hyperbolic",
+        "stat": "Chance",
+        "value": "20%"
+      },
       {
         "add": "+5",
         "stack": "Linear",
@@ -1224,7 +1477,9 @@
     "url": "Sentient Meat Hook.png"
   },
   "Shaped Glass": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Increase base damage by <span class=text-damage>100%</span> <span class=text-stack>(+100% per stack)</span>. <span class=text-heal>Reduce maximum health by 50%</span> <span class=text-stack>(+50% per stack)</span>.",
     "id": 43,
     "quote": "Double your damage... <span class=text-danger>BUT halve your health</span>.",
@@ -1246,7 +1501,9 @@
     "url": "Shaped Glass.png"
   },
   "Shattering Justice": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "After hitting an enemy <span class=text-damage>5</span> times, reduce their <span class=text-damage>armor</span> by <span class=text-damage>60</span> for <span class=text-damage>8</span> <span class=text-stack>(+8 per stack)</span> seconds.",
     "id": 85,
     "quote": "Reduce the armor of enemies after repeatedly striking them.",
@@ -1259,11 +1516,12 @@
         "value": "8s"
       }
     ],
-    "unlock": "",
     "url": "Shattering Justice.png"
   },
   "Soldier's Syringe": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Increases <span class=text-damage>attack speed</span> by <span class=text-damage>15%</span> <span class=text-stack>(+15% per stack)</span>.",
     "id": 0,
     "quote": "Increases attack speed.",
@@ -1279,7 +1537,11 @@
     "url": "Soldier's Syringe.png"
   },
   "Soulbound Catalyst": {
-    "category": "Utility,OnKillEffect,EquipmentRelated",
+    "category": [
+      "Utility",
+      "OnKillEffect",
+      "EquipmentRelated"
+    ],
     "desc": "<span class=text-damage>Kills reduce</span> <span class=text-utility>equipment cooldown</span> by <span class=text-utility>4s</span> <span class=text-stack>(+2s per stack)</span>.",
     "id": 51,
     "quote": "Kills reduce equipment cooldown.",
@@ -1295,8 +1557,29 @@
     "unlock": "Newtist",
     "url": "Soulbound Catalyst.png"
   },
+  "Squid Polyp": {
+    "category": [
+      "Damage",
+      "AIBlacklist"
+    ],
+    "desc": "Activating an interactable summons a <span class=text-damage>Squid Turret</span> that attacks nearby enemies at <span class=text-damage>100% <span class=text-stack>(+100% per stack)</span> attack speed</span>. Lasts <span class=text-utility>30</span> seconds.",
+    "id": 103,
+    "quote": "Activating an interactable summons a Squid Turret nearby.",
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "add": "+100%",
+        "stack": "Linear",
+        "stat": "Attack Speed",
+        "value": "100%"
+      }
+    ],
+    "unlock": "Automation Activation"
+  },
   "Sticky Bomb": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-damage>5%</span> <span class=text-stack>(+5% per stack)</span> chance on hit to attach a <span class=text-damage>bomb</span> to an enemy, detonating for <span class=text-damage>180%</span> TOTAL damage.",
     "id": 59,
     "quote": "Chance on hit to attach a bomb to enemies.",
@@ -1312,7 +1595,10 @@
     "url": "Sticky Bomb.png"
   },
   "Strides of Heresy": {
-    "category": "Utility,Healing",
+    "category": [
+      "Utility",
+      "Healing"
+    ],
     "desc": "<span class=text-utility>Replace your Utility Skill</span> with <span class=text-utility>Shadowfade</span>.\r\n\r\nFade away, becoming <span class=text-utility>intangible</span> and gaining <span class=text-utility>+30% movement speed</span>. <span class=text-heal>Heal</span> for <span class=text-heal>25% <span class=text-stack>(+25% per stack)</span> of your maximum health</span>. Lasts 3 <span class=text-stack>(+3 per stack)</span> seconds.",
     "id": 88,
     "quote": "Replace your Utility Skill with 'Shadowfade'.",
@@ -1331,11 +1617,14 @@
         "value": "3s"
       }
     ],
-    "unlock": "",
+    "unlock": "Blockade Breaker",
     "url": "Strides of Heresy.png"
   },
   "Stun Grenade": {
-    "category": "Utility,AIBlacklist",
+    "category": [
+      "Utility",
+      "AIBlacklist"
+    ],
     "desc": "<span class=text-utility>5%</span> <span class=text-stack>(+5% on stack)</span> chance on hit to <span class=text-utility>stun</span> enemies for <span class=text-utility>2 seconds</span>.",
     "id": 41,
     "quote": "Chance to stun on hit.",
@@ -1352,8 +1641,11 @@
   },
   "Titanic Knurl": {
     "Boss": "Stone Titan",
-    "category": "Utility,Healing",
-    "desc": "<span class=text-heal>Increase maximum health</span> by <span class=text-heal>40</span> <span class=text-stack>(+40 per stack)</span> and <span class=text-heal>health regeneration</span> by <span class=text-heal>1.6 <span class=text-stack>(+1.6 per stack)</span> health / second</span>.",
+    "category": [
+      "Utility",
+      "Healing"
+    ],
+    "desc": "<span class=text-heal>Increase maximum health</span> by <span class=text-heal>40</span> <span class=text-stack>(+40 per stack)</span> and <span class=text-heal>base health regeneration</span> by <span class=text-heal>+1.6 hp/s</span> <span class=text-stack>(+1.6 hp/s per stack)</span>.",
     "id": 52,
     "quote": "Boosts health and regeneration.",
     "rarity": "Boss",
@@ -1374,7 +1666,9 @@
     "url": "Titanic Knurl.png"
   },
   "Tonic Affliction": {
-    "category": "Cleansable",
+    "category": [
+      "Cleansable"
+    ],
     "id": 81,
     "quote": "Reduce ALL stats when not under the effects of Spinel Tonic.",
     "rarity": "NoTier",
@@ -1388,7 +1682,11 @@
     ]
   },
   "Topaz Brooch": {
-    "category": "Utility,Healing,OnKillEffect",
+    "category": [
+      "Utility",
+      "Healing",
+      "OnKillEffect"
+    ],
     "desc": "Gain a <span class=text-heal>temporary barrier</span> on kill for <span class=text-heal>15 health</span> <span class=text-stack>(+15 per stack)</span>.",
     "id": 84,
     "quote": "Gain a temporary barrier on kill.",
@@ -1404,7 +1702,9 @@
     "url": "Topaz Brooch.png"
   },
   "Tougher Times": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "<span class=text-heal>15%</span> <span class=text-stack>(+15% per stack)</span> chance to <span class=text-heal>block</span> incoming damage. <span class=text-utility>Unaffected by luck</span>.",
     "id": 1,
     "quote": "Chance to block incoming damage.",
@@ -1421,7 +1721,9 @@
     "url": "Tougher Times.png"
   },
   "Transcendence": {
-    "category": "Utility",
+    "category": [
+      "Utility"
+    ],
     "desc": "<span class=text-heal>Convert</span> all but <span class=text-heal>1 health</span> into <span class=text-heal>regenerating shields</span>. <span class=text-heal>Gain 50% <span class=text-stack>(+25% per stack)</span> maximum health</span>.",
     "id": 49,
     "quote": "Convert all your health into shield. Increase maximum health.",
@@ -1437,7 +1739,9 @@
     "url": "Transcendence.png"
   },
   "Tri-Tip Dagger": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-damage>15%</span> <span class=text-stack>(+15% per stack)</span> chance to <span class=text-damage>bleed</span> an enemy for <span class=text-damage>240%</span> base damage.",
     "id": 20,
     "quote": "Chance to bleed enemies on hit.",
@@ -1453,8 +1757,10 @@
     "url": "Tri-Tip Dagger.png"
   },
   "Ukulele": {
-    "category": "Damage",
-    "desc": "<span class=text-damage>25%</span> chance to fire <span class=text-damage>chain lighting</span> for <span class=text-damage>80%</span> TOTAL damage on up to <span class=text-damage>3</span> <span class=text-stack>(+2 per stack)</span> targets within <span class=text-damage>20m</span> <span class=text-stack>(+2m per stack)</span>.",
+    "category": [
+      "Damage"
+    ],
+    "desc": "<span class=text-damage>25%</span> chance to fire <span class=text-damage>chain lightning</span> for <span class=text-damage>80%</span> TOTAL damage on up to <span class=text-damage>3</span> <span class=text-stack>(+2 per stack)</span> targets within <span class=text-damage>20m</span> <span class=text-stack>(+2m per stack)</span>.",
     "id": 11,
     "quote": "...and his music was electric.",
     "rarity": "Uncommon",
@@ -1475,7 +1781,9 @@
     "url": "Ukulele.png"
   },
   "Unstable Tesla Coil": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "Fire out <span class=text-damage>lightning</span> that hits <span class=text-damage>3</span> <span class=text-stack>(+2 per stack)</span> enemies for <span class=text-damage>200%</span> base damage every <span class=text-damage>0.5s</span>. The Tesla Coil switches off every <span class=text-damage>10 seconds</span>.",
     "id": 32,
     "quote": "Shock all nearby enemies every 10 seconds.",
@@ -1492,7 +1800,9 @@
     "url": "Unstable Tesla Coil.png"
   },
   "Visions of Heresy": {
-    "category": "Damage",
+    "category": [
+      "Damage"
+    ],
     "desc": "<span class=text-utility>Replace your Primary Skill</span> with <span class=text-utility>Hungering Gaze</span>.\r\n\r\nFire a flurry of <span class=text-utility>tracking shards</span> that detonate after a delay, dealing <span class=text-damage>120%</span> base damage. Hold up to 12 charges <span class=text-stack>(+12 per stack)</span> that reload after 2 seconds <span class=text-stack>(+2 per stack)</span>.",
     "id": 96,
     "quote": "Replace your Primary Skill with 'Hungering Gaze'.",
@@ -1511,11 +1821,16 @@
         "value": "2s"
       }
     ],
-    "unlock": "",
+    "unlock": "Blockade Breaker",
     "url": "Visions of Heresy.png"
   },
   "Wake of Vultures": {
-    "category": "Damage,Utility,AIBlacklist,OnKillEffect",
+    "category": [
+      "Damage",
+      "Utility",
+      "AIBlacklist",
+      "OnKillEffect"
+    ],
     "desc": "Gain the <span class=text-damage>power</span> of any killed elite monster for <span class=text-damage>8s</span> <span class=text-stack>(+5s per stack)</span>.",
     "id": 69,
     "quote": "Temporarily steal the power of slain elites.",
@@ -1531,7 +1846,10 @@
     "url": "Wake of Vultures.png"
   },
   "War Horn": {
-    "category": "Damage,EquipmentRelated",
+    "category": [
+      "Damage",
+      "EquipmentRelated"
+    ],
     "desc": "Activating your Equipment gives you <span class=text-damage>+70% attack speed</span> for <span class=text-damage>8s</span> <span class=text-stack>(+4s per stack)</span>.",
     "id": 79,
     "quote": "Activating your Equipment gives you a burst of attack speed.",
@@ -1548,7 +1866,10 @@
     "url": "War Horn.png"
   },
   "Warbanner": {
-    "category": "Utility,AIBlacklist",
+    "category": [
+      "Utility",
+      "AIBlacklist"
+    ],
     "desc": "On <span class=text-utility>level up</span> drop a banner that strengthens all allies within <span class=text-utility>16m</span> <span class=text-stack>(+8m per stack)</span>. Raise <span class=text-damage>attack</span> and <span class=text-utility>movement speed</span> by <span class=text-damage>30%</span>.",
     "id": 24,
     "quote": "Drop a Warbanner on leveling up, giving you great strength.",
@@ -1564,7 +1885,10 @@
     "url": "Warbanner.png"
   },
   "Wax Quail": {
-    "category": "Utility,SprintRelated",
+    "category": [
+      "Utility",
+      "SprintRelated"
+    ],
     "desc": "<span class=text-utility>Jumping</span> while <span class=text-utility>sprinting</span> boosts you forward by <span class=text-utility>10m</span> <span class=text-stack>(+10m per stack)</span>.",
     "id": 76,
     "quote": "Jumping while sprinting boosts you forward.",
@@ -1581,7 +1905,10 @@
     "url": "Wax Quail.png"
   },
   "Will-o'-the-wisp": {
-    "category": "Damage,OnKillEffect",
+    "category": [
+      "Damage",
+      "OnKillEffect"
+    ],
     "desc": "On killing an enemy, spawn a <span class=text-damage>lava pillar</span> in a <span class=text-damage>12m</span> <span class=text-stack>(+2.4m per stack)</span> radius for <span class=text-damage>350%</span> <span class=text-stack>(+280% per stack)</span> base damage.",
     "id": 4,
     "quote": "Detonate enemies on kill.",
