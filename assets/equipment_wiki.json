@@ -1,0 +1,222 @@
+{
+  "Blast Shower": {
+    "cooldown": 20,
+    "desc": "<span class=text-utility>Cleanse</span> all negative effects. Includes debuffs, damage over time, and nearby projectiles.",
+    "id": "",
+    "quote": "Cleanse all negative effects.",
+    "rarity": "Equipment",
+    "url": "Blast Shower.png"
+  },
+  "Disposable Missile Launcher": {
+    "cooldown": 45,
+    "desc": "Fire a swarm of <span class=text-damage>12</span> missiles that deal <span class=text-damage>12x300% damage</span>.",
+    "id": "",
+    "quote": "Fire a swarm of missiles.",
+    "rarity": "Equipment",
+    "url": "Disposable Missile Launcher.png"
+  },
+  "Eccentric Vase": {
+    "cooldown": 45,
+    "desc": "Create a <span class=text-utility>quantum tunnel</span> of up to <span class=text-utility>1000m</span> in length. Lasts 30 seconds.",
+    "id": "",
+    "quote": "Create a quantum tunnel between two locations.",
+    "rarity": "Equipment",
+    "unlock": "Blackout",
+    "url": "Eccentric Vase.png"
+  },
+  "Effigy of Grief": {
+    "desc": "ALL characters within are <span class=text-utility>slowed by 50%</span> and have their <span class=text-damage>armor reduced by 20</span>.",
+    "id": "",
+    "quote": "Drop an effigy that cripples ALL characters inside. Can be picked back up.",
+    "rarity": "Lunar Equipment",
+    "url": "Effigy of Grief.png"
+  },
+  "Foreign Fruit": {
+    "cooldown": 45,
+    "desc": "Instantly heal for <span class=text-heal>50% of your maximum health</span>.",
+    "id": 2,
+    "quote": "Heal on use.",
+    "rarity": "Equipment",
+    "url": "Foreign Fruit.png"
+  },
+  "Fuel Array": {
+    "desc": "Looks like it could power something. <span class=text-danger>EXTREMELY unstable...</span>",
+    "id": "",
+    "quote": "Looks like it could power something. <span class=text-danger>EXTREMELY unstable...</span>",
+    "rarity": "Equipment",
+    "url": "Fuel Array.png"
+  },
+  "Glowing Meteorite": {
+    "cooldown": 140,
+    "desc": "<span class=text-damage>Rain meteors</span> from the sky, damaging ALL characters for <span class=text-damage>600% damage per blast</span>. Lasts 20 seconds.",
+    "id": "",
+    "quote": "Rain meteors from the sky, <span class=text-danger>hurting both enemies and allies</span>.",
+    "rarity": "Lunar Equipment",
+    "unlock": "Moon Worshipper",
+    "url": "Glowing Meteorite.png"
+  },
+  "Gnarled Woodsprite": {
+    "cooldown": 15,
+    "desc": "Gain a Woodsprite follower that heals for <span class=text-heal>1.5% of your maximum health/second</span>. Can be sent to an ally to heal them for <span class=text-heal>10% of their maximum health</span>.",
+    "id": "",
+    "quote": "Heal over time. Activate to send to an ally.",
+    "rarity": "Equipment",
+    "unlock": "One with the Woods",
+    "url": "Gnarled Woodsprite.png"
+  },
+  "Helfire Tincture": {
+    "cooldown": 45,
+    "desc": "Ignite ALL characters within 8m. Deal <span class=text-damage>5% of your maximum health/second as burning</span> to yourself. The burn is <span class=text-damage>0.5x</span> stronger on allies, and <span class=text-damage>24x</span> stronger on enemies.",
+    "id": "",
+    "quote": "Burn everything nearby... <span class=text-danger>including you and allies.</span>",
+    "rarity": "Lunar Equipment",
+    "url": "Helfire Tincture.png"
+  },
+  "Her Biting Embrace": {
+    "elite": "Glacial",
+    "desc": "Become an aspect of ice.",
+    "id": "",
+    "quote": "Become an aspect of ice.",
+    "rarity": "Elite Equipment",
+    "url": "Her Biting Embrace.png"
+  },
+  "Ifrit's Distinction": {
+    "elite": "Blazing",
+    "desc": "Become an aspect of fire.",
+    "id": "",
+    "quote": "Become an aspect of fire.",
+    "rarity": "Elite Equipment",
+    "url": "Ifrit's Distinction.png"
+  },
+  "Jade Elephant": {
+    "cooldown": 45,
+    "desc": "Gain <span class=text-damage>500 armor</span> for <span class=text-utility>5 seconds</span>.",
+    "id": "",
+    "quote": "Gain massive armor for 5 seconds.",
+    "rarity": "Equipment",
+    "url": "Jade Elephant.png"
+  },
+  "Milky Chrysalis": {
+    "cooldown": 60,
+    "desc": "Sprout wings and <span class=text-utility>fly for 15 seconds</span>. Gain <span class=text-utility>+20% movement speed</span> for the duration.",
+    "id": "",
+    "quote": "Gain temporary flight.",
+    "rarity": "Equipment",
+    "url": "Milky Chrysalis.png"
+  },
+  "N'kuhana's Retort": {
+    "elite": "Malachite",
+    "desc": "Become an aspect of corruption.",
+    "id": "",
+    "quote": "Become an aspect of corruption.",
+    "rarity": "Elite Equipment",
+    "url": "N'kuhana's Retort.png"
+  },
+  "Ocular HUD": {
+    "cooldown": 60,
+    "desc": "Gain <span class=text-damage>+100% Critical Strike Chance</span> for 8 seconds.",
+    "id": "",
+    "quote": "Gain 100% Critical Strike Chance for 8 seconds.",
+    "rarity": "Equipment",
+    "url": "Ocular HUD.png"
+  },
+  "Preon Accumulator": {
+    "cooldown": 140,
+    "desc": "Fires preon tendrils, zapping enemies within 35m for up to <span class=text-damage>600% damage/second</span>. On contact, detonate in an enormous 20m explosion for <span class=text-damage>4000% damage</span>.",
+    "id": "",
+    "quote": "Fire a ball of energy that electrocutes nearby enemies before detonating.",
+    "rarity": "Equipment",
+    "unlock": "REDACTED|[REDACTED]",
+    "url": "Preon Accumulator.png"
+  },
+  "Primordial Cube": {
+    "cooldown": 60,
+    "desc": "Fire a black hole that <span class=text-utility>draws enemies within 30m into its center</span>. Lasts 10 seconds",
+    "id": "",
+    "quote": "Fire a black hole that draws enemies in.",
+    "rarity": "Equipment",
+    "url": "Primordial Cube.png"
+  },
+  "Radar Scanner": {
+    "cooldown": 45,
+    "desc": "<span class=text-utility>Reveal</span> all interactables within 500m for <span class=text-utility>10 seconds</span>.",
+    "id": "",
+    "quote": "Reveal all nearby interactables.",
+    "rarity": "Equipment",
+    "unlock": "Bookworm",
+    "url": "Radar Scanner.png"
+  },
+  "Recycler": {
+    "cooldown": 45,
+    "desc": "<span class=text-utility>Transform</span> an Item or Equipment into a different one. <span class=text-utility>Can only be converted into the same tier one time</span>.",
+    "id": "",
+    "quote": "Transform an Item or Equipment into a different one. Can only recycle once.",
+    "rarity": "Equipment",
+    "unlock": "Cleanup Duty"
+  },
+  "Royal Capacitor": {
+    "cooldown": 20,
+    "desc": "Call down a lightning strike on a targeted monster, dealing <span class=text-damage>3000% damage</span> and <span class=text-damage>stunning</span> nearby monsters.",
+    "id": "",
+    "quote": "Call down a lightning strike on a targeted monster.",
+    "rarity": "Equipment",
+    "unlock": "Ascendant",
+    "url": "Royal Capacitor.png"
+  },
+  "Sawmerang": {
+    "cooldown": 45,
+    "desc": "Throw <span class=text-damage>three large saw blades</span> that slice through enemies for <span class=text-damage>3x400%</span> damage. Also deals an additional <span class=text-damage>3x100% damage per second</span> while <span class=text-damage>bleeding</span> enemies. Can <span class=text-damage>strike</span> enemies again on the way back.",
+    "id": "",
+    "quote": "Throw a fan of buzzing saws that come back to you.",
+    "rarity": "Equipment"
+  },
+  "Silence Between Two Strikes": {
+    "elite": "Overloading",
+    "desc": "Become an aspect of lightning.",
+    "id": 6,
+    "quote": "Become an aspect of lightning.",
+    "rarity": "Elite Equipment",
+    "url": "Silence Between Two Strikes.png"
+  },
+  "Spectral Circlet": {
+    "elite": "Celestine",
+    "desc": "Become an aspect of incorporeality.",
+    "id": "",
+    "quote": "Become an aspect of incorporeality.",
+    "rarity": "Elite Equipment",
+    "url": "Spectral Circlet.png"
+  },
+  "Spinel Tonic": {
+    "cooldown": 60,
+    "desc": "Drink the Tonic, gaining a boost for 20 seconds. Increases <span class=text-damage>damage</span> by <span class=text-damage>+100%</span>. Increases <span class=text-damage>attack speed</span> by <span class=text-damage>+70%</span>. Increases <span class=text-damage>armor</span> by <span class=text-damage>+20</span>. Increases <span class=text-heal>maximum health</span> by <span class=text-heal>+50%</span>. Increases <span class=text-heal>passive health regeneration</span> by <span class=text-heal>+300%</span>. Increases <span class=text-utility>movespeed</span> by <span class=text-utility>+30%</span>.\r\n\r\nWhen the Tonic wears off, you have a <span class=text-hit-points>20%</span> chance to gain a <span class=text-hit-points>Tonic Affliction, reducing all of your stats</span> by <span class=text-hit-points>-5%</span> <span class=text-stack>(-5% per stack)</span>.",
+    "id": "",
+    "quote": "Gain a massive boost to ALL stats. <span class=text-danger>Chance to gain an affliction that reduces ALL stats</span>.",
+    "rarity": "Lunar Equipment",
+    "url": "Spinel Tonic.png"
+  },
+  "The Back-up": {
+    "cooldown": 100,
+    "desc": "Call <span class=text-damage>4 Strike Drones</span> to fight for you. Lasts 25 seconds.",
+    "id": "",
+    "quote": "Call drones for back up. Lasts 25 seconds.",
+    "rarity": "Equipment",
+    "unlock": "Mechanic",
+    "url": "The Back-up.png"
+  },
+  "The Crowdfunder": {
+    "desc": "Fires a continuous barrage that deals <span class=text-damage>100% damage per bullet</span>. Costs $1 per bullet. Cost increases over time.",
+    "id": "",
+    "quote": "Toggle to fire. Costs gold per bullet.",
+    "rarity": "Equipment",
+    "unlock": "Funded!",
+    "url": "The Crowdfunder.png"
+  },
+  "Volcanic Egg": {
+    "cooldown": 30,
+    "desc": "Turn into a <span class=text-damage>draconic fireball</span> for <span class=text-damage>5</span> seconds. Deal <span class=text-damage>500% damage</span> on impact. Detonates at the end for <span class=text-damage>800% damage</span>.",
+    "id": "",
+    "quote": "Transform into a speeding draconic fireball, dealing damage as you pass through enemies.",
+    "rarity": "Equipment",
+    "url": "Volcanic Egg.png"
+  }
+}
