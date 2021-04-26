@@ -1,6 +1,7 @@
 # risk-of-rain
 
 > Cheatsheet for Risk of Rain 2
+> http://shrineoforder.com/
 
 ## Build Setup
 
